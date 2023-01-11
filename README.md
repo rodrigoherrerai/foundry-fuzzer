@@ -2,7 +2,7 @@
 
 Basic fuzzing example using Foundry. 
 
-The fuzzer needs to find an input "x" when hashed, matches a target hash:
+The fuzzer needs to find an input "x" that its hash matches a target hash:
 
 ```solidity 
  function guess(uint256 x) external {
