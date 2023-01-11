@@ -18,8 +18,8 @@ The fuzzer needs to find an input "x" that its hash matches a target hash:
 
 * The fuzzer finds it because the target for x is relatively small (111111), it would not find a big and random enough parameter.
 
-## Usage
-Run: 
+## Usage
+
 ```
 forge test
 ```
