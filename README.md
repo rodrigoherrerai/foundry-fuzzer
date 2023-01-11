@@ -18,5 +18,5 @@ The fuzzer needs to find an input "x" that its hash matches a target hash:
 
 * The target for x is 111111
 
-## Note
+## Note
 It can take a couple of minutes (depending on your machine) to find the target. If it doesn't find it increase the number of runs or run it again. 
