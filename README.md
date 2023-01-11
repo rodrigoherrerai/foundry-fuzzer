@@ -18,6 +18,12 @@ The fuzzer needs to find an input "x" that its hash matches a target hash:
 
 * The fuzzer finds it because the target for x is relatively small (111111), it would not find a big and random enough parameter.
 
+## Usage
+Run: 
+```
+forge test
+```
+
 ## Note
 It can take a couple of minutes (depending on your machine) to find the target. If it doesn't find it increase the number of runs or run it again. 
 
